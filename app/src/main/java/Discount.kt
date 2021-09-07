@@ -11,6 +11,7 @@ fun main() {
     val price: Int = reader.nextInt()
     val resultDiscount: Int
     val finalPrice: Int
+    val lala : Int
 
     if (price >= 400000 && price < 800000) {
         resultDiscount = price * 4 / 100
